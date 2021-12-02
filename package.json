@@ -12,6 +12,10 @@
 	"activationEvents": [
 		"*"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/diwuwudi123/vscode-reader.git"
+	},
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
@@ -71,7 +75,7 @@
 		"typescript": "^4.4.4"
 	},
 	"dependencies": {
-		"axios": "^0.24.0",
+		"axios": "^0.21.4",
 		"cheerio": "^1.0.0-rc.10",
 		"install": "^0.13.0",
 		"npm": "^8.1.4"
